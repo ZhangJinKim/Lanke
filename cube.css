@@ -1,0 +1,160 @@
+
+#cubeshape 
+{
+    width: 20em;
+    height: 20em;
+    left: 50%;
+    margin-left: -10em;
+    margin-top: -10em;
+    -webkit-perspective: 1000px;
+    -ms-perspective: 1000px;
+    perspective: 1000px;
+    position: absolute;
+    top: 50%;
+
+}
+/*控制旋转*/
+#cube
+{
+    -webkit-animation: 12s spin linear infinite;
+    animation: 12s spin linear infinite;
+    height: 100%;
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    width: 100%;
+}
+
+#cube *
+{
+    background: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0) 0px, rgba(54, 226, 248, 0.5) 0%, rgba(54, 226, 248, 0.5) 3px, rgba(0, 0, 0, 0) 0px), -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0) 0px, rgba(54, 226, 248, 0.5) 0%, rgba(54, 226, 248, 0.5) 3px, rgba(0, 0, 0, 0) 0px);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0px, rgba(54, 226, 248, 0.5) 0%, rgba(54, 226, 248, 0.5) 3px, rgba(0, 0, 0, 0) 0px), linear-gradient(90deg, rgba(0, 0, 0, 0) 0px, rgba(54, 226, 248, 0.5) 0%, rgba(54, 226, 248, 0.5) 3px, rgba(0, 0, 0, 0) 0px);
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(54, 226, 248, 0.5);
+    -webkit-box-shadow: 0 0 5em rgba(0, 128, 0, 0.4);
+    box-shadow: 0 0 5em rgba(0, 128, 0, 0.4);
+    display: block;
+    height: 20em;
+    position: absolute;
+    width: 20em;
+}
+
+#cube *:before
+{
+    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0) 30%, rgba(0, 128, 0, 0.2) 100%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 30%, rgba(0, 128, 0, 0.2) 100%);
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+#back
+{
+    -webkit-transform: rotateX(180deg) translateZ(10em);
+    -ms-transform: rotateX(180deg) translateZ(10em);
+    transform: rotateX(180deg) translateZ(10em);
+}
+
+#bottom
+{
+	background: url(../img/22.png);
+    -webkit-transform: rotateX(-90deg) translateZ(10em);
+    -ms-transform: rotateX(-90deg) translateZ(10em);
+    transform: rotateX(-90deg) translateZ(10em);
+}
+
+#front
+{
+	background: url(../img/23.png);
+    -webkit-transform: rotateY(0deg) translateZ(10em);
+    -ms-transform: rotateY(0deg) translateZ(10em);
+    transform: rotateY(0deg) translateZ(10em);
+}
+
+#left
+{
+	background: url(../img/24.png);
+    -webkit-transform: rotateY(-90deg) translateZ(10em);
+    -ms-transform: rotateY(-90deg) translateZ(10em);
+    transform: rotateY(-90deg) translateZ(10em);
+}
+
+#right
+{
+	background: url(../img/25.png);
+    -webkit-transform: rotateY(90deg) translateZ(10em);
+    -ms-transform: rotateY(90deg) translateZ(10em);
+    transform: rotateY(90deg) translateZ(10em);
+}
+
+#top
+{
+	background: url(../img/26.png);
+    -webkit-transform: rotateX(90deg) translateZ(10em);
+    -ms-transform: rotateX(90deg) translateZ(10em);
+    transform: rotateX(90deg) translateZ(10em);
+}
+
+@-webkit-keyframes spin
+{
+    from
+    {
+        -webkit-transform: translateZ(-10em) rotateX(0) rotateY(0deg);
+        transform: translateZ(-10em) rotateX(0) rotateY(0deg);
+    }
+
+    to
+    {
+        -webkit-transform: translateZ(-10em) rotateX(360deg) rotateY(360deg);
+        transform: translateZ(-10em) rotateX(360deg) rotateY(360deg);
+    }
+}
+
+@keyframes spin
+{
+    from
+    {
+        -webkit-transform: translateZ(-10em) rotateX(0) rotateY(0deg);
+        transform: translateZ(-10em) rotateX(0) rotateY(0deg);
+    }
+
+    to
+    {
+        -webkit-transform: translateZ(-10em) rotateX(360deg) rotateY(360deg);
+        transform: translateZ(-10em) rotateX(360deg) rotateY(360deg);
+    }
+}
+
+/*左边介绍部分*/
+#box_bottom,#box_front,#box_left,#box_right,#box_top{
+	visibility: hidden;
+	width: 300px;
+	height: 450px;
+	margin-left: 100px;
+	margin-top: 100px;
+    background: #E7F4B5;
+    box-shadow: 0 0 5px #bababa;
+    text-align: left;
+    overflow: hidden;
+    position: absolute;
+    -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.8);
+}
+
+ .title{
+ 	text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    border-bottom: 2px solid #334a65; 
+}
+ .description{
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+    font-size: 20px;
+    line-height: 20px;
+}
