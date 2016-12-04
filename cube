@@ -1,0 +1,139 @@
+# Lanke
+竞赛作品，主要是特效
+
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+	<title>Second</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/notChange/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/cube.css">	
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+	<link rel="stylesheet" href="css/notChange/bootstrap-vertical-menu.css">
+</head>
+
+<body style=" background: -webkit-radial-gradient(center, ellipse, #FFFFFF 0%, #8EAF0C 100%);
+    background: radial-gradient(ellipse at center, #FFFFFF 0%, #8EAF0C 100%);
+    height: 100%;">
+	<nav class="navbar navbar-vertical-left">
+		
+	    <ul class="nav navbar-nav">
+	      <li>
+	        <a href="first.html">
+	          <i class="fa fa-fw fa-lg fa-home"></i> 
+	          <span>游戏种类</span>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="second.html">
+	          <i class="fa fa-fw fa-lg fa-glass "></i> 
+	          <span>游戏介绍</span>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="third.html">
+	          <i class="fa fa-fw fa-lg fa-play-circle"></i> 
+	          <span>游戏开始</span>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="fourth.html">
+	          <i class="fa fa-fw fa-lg fa-eye"></i> 
+	          <span>游戏放松</span>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="fifth.html">
+	          <i class="fa fa-fw fa-lg fa-edit"></i> 
+	          <span>修改意见</span>
+	        </a>
+	      </li>
+	      
+	    </ul>
+	</nav>
+	
+	<div id="cubeshape">
+		<a href="third.html">
+		<div id="cube" >			
+			<div id="back"></div>
+			<div id="bottom"></div>
+            <div id="front"></div>
+            <div id="left"></div>
+            <div id="right"></div>
+            <div id="top"></div>           
+       </div>
+       </a>
+	</div>
+	<div id="box_bottom" >
+        <div class="box-content">
+            <h3 class="title">推箱子</h3>
+            <p class="description">
+               	&nbsp;&nbsp;&nbsp;&nbsp;最经典的推箱子游戏，类似的游戏你一定早就玩过。要控制搬运工上下左右移动，来将箱子推到指定地点<br />
+				推箱子游戏是一种老少皆宜的益智游戏，可以开发青少年学生的智力。<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;1、游戏支持键盘操作。<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;2、提供回复上一步的功能，可以回到任何一步走过的路径，可以给用户足够的思考空间，使用户的智力在游戏的乐趣中得到充分的锻炼。<br />
+            </p>
+        </div>
+	</div>
+	<div id="box_front" >
+        <div class="box-content">
+            <h3 class="title">植物大战僵尸</h3>
+            <p class="description">
+                	《植物大战僵尸》是一款益智策略类塔防御战游戏。<br />
+                	玩家通过武装多种植物切换不同的功能，快速有效地把僵尸阻挡在入侵的道路上。<br />
+                	不同的敌人有不同的玩法构成五种不同的游戏模式，再加上夕阳、浓雾以及泳池之类的障碍增加了游戏挑战性。<br />
+                	植物大战僵尸这款极富策略性的小游戏，唯一的防御方式就是栽种植物。<br />
+            </p>
+        </div>
+	</div>
+	<div id="box_left" >
+        <div class="box-content">
+            <h3 class="title">魂斗罗</h3>
+            <p class="description">
+            	魂斗罗是一款动作射击类游戏。<br />
+            	玩家扮演特种部队，面对大量的敌人，从人和机器到异形和外星人。<br />
+            	在战斗途中，玩家可以击落飞行的特殊目标来获得各种强化。<br />
+            	游戏的成功卖点包括支持两个玩家同时进行游戏（双打），以及几个场景的纵深视角。
+            </p>
+        </div>
+	</div>
+	<div id="box_right" >
+        <div class="box-content">
+            <h3 class="title">超级玛丽</h3>
+            <p class="description">
+            	超级玛丽是一款街机益智动作类游戏。<br />
+            	玩家需要控制游戏系列的主角——马里奥 。<br />
+            	游戏的目标在于游历蘑菇王国，并从大反派库巴的魔掌里救回桃子公主。<br />
+            	马里奥可以在游戏世界收集散落各处的金币，或者敲击特殊的“？砖块”，获得其中的金币或特殊道具。<br />
+            	其他“秘密砖块”（通常为隐藏）还可能藏有更多的金币或某些稀有道具。<br />
+            </p>
+        </div>
+	</div>
+	<div id="box_top" >
+        <div class="box-content">
+            <h3 class="title">开心消消乐</h3>
+            <p class="description">
+            	《开心消消乐》是一款三消游戏，游戏画面精美、上手简单。<br />
+            	玩家只需滑动手指让三个及以上的同色小动物横竖相连即可消除，完成每关的指定消除目标就可以过关。<br />
+            	小动物的滑动还会触发很多神奇的效果，比如在四连直线和横线特效相邻时，两个互相拖动，两者同时触发，构成十字架；四连直线可以产生爆炸特效，使横排或竖排四个目标同时清空。
+            </p>
+        </div>
+	</div>
+
+	
+	<script type="text/javascript" src="js/cube.js"></script>
+	
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
